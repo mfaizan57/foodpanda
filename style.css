@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    display: flex;
+    
+}
+.nav-bar {
+    width: 100%;
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.16);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    padding: 0px 100px;
+    max-height: 90px;
+}
+
+.nav-box {
+    padding: 10px;
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-log {
+    border: 1px solid black;
+    border-radius: 8px;
+    font-family: Open Sans;
+    background-color: transparent;
+    color: #39434D;
+    padding: 6px 12px;
+    font-size: 16px;
+}
+
+.btn-log:hover {
+    border: 1px solid black;
+    border-radius: 8px;
+    font-family: Open Sans;
+    background-color: #F0F2F2;
+    color: #39434D;
+    padding: 8px 14px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+.btn-signup {
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-family: Open Sans;
+    background-color: #E21B70;
+    color: white;
+    padding: 6px 14px;
+    font-size: 16px;
+}
+
+.btn-signup:hover {
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-family: Open Sans;
+    background-color: #C21760;
+    color: white;
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center ;
+    margin-left: 850px;
+}
+
+
+.language {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 8px 10px;
+}
+
+.language:hover {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: #F0F2F2;
+    padding: 8px 10px;
+    transition: ease-in-out 0.2s;
+}
+
+.cart-icon {
+    border: 1px solid transparent;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.cart-icon:hover {
+    border: 1px solid transparent;
+    background-color: #F0F2F2;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+
+
+.address-bar {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 800px;
+    height: 85px;
+    padding: 0px 25px;
+    border-radius: 15px;
+}
+
+.address-bar input {
+    border: 1px solid #DCDCDC;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+    padding: 10px;
+    width: 550px;
+    height: 25px;
+    border-radius: 9px 0px 0px 9px;
+    border-right: none;
+}
+
+.btn-locate {
+    border: 1px solid #DCDCDC;
+    background-color: transparent;
+    outline: none;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 0px 9px 9px 0px;
+    border-left: none;
+    display: flex;
+    align-items: center;
+}
+
+.btn-locate svg {
+    padding: 0px 5px;
+    fill: #E21B70;
+}
+
+.locate-text {
+    color: #39434D;
+    font-size: 15px;
+}
+
+.locate-text:hover {
+    color: #E21B70;
+}
+
+
+.locate {
+    width: 40%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.body {
+    background-color: #F7F7F7;
+    min-height: 600px;
+}
+
+.content-1 h1 {
+    margin-top: 0px;
+    font-size: 44px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.content-1 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 310px;
+    left: 120px;
+}
+
+.btn-find {
+    margin-left: 14px;
+    border: 1px solid transparent;
+    background-color: #E21B70;
+    outline: none;
+    font-size: 15px;
+    padding: 10px 8px;
+    border-radius: 9px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.btn-find:hover {
+    margin-left: 14px;
+    border: 1px solid transparent;
+    background-color: #C21760;
+    outline: none;
+    font-size: 15px;
+    padding: 12px 12px;
+    border-radius: 9px;
+    color: #ffffff;
+    font-weight: bold;
+    transition: ease-in-out 0.1s;
+}
+
+
+
+.image-container img {
+    width: 900px;
+    position: absolute;
+    left: 800px;
+    top: -190px;
+}
