@@ -125,7 +125,7 @@ header {
     align-items: center;
     background-color: #ffffff;
     border-radius: 5px;
-    width: 800px;
+    max-width: 800px;
     height: 85px;
     padding: 0px 25px;
     border-radius: 15px;
@@ -179,7 +179,9 @@ header {
 
 .body {
     background-color: #F7F7F7;
-    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .content-1 h1 {
@@ -222,11 +224,220 @@ header {
     transition: ease-in-out 0.1s;
 }
 
+.image-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
 
 
 .image-container img {
-    width: 900px;
-    position: absolute;
-    left: 800px;
-    top: -190px;
+    width: auto;
+    height: 600px;
 }
+
+section {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-1 {
+    margin-bottom: -140px;
+}
+
+.content-2a {
+    display: flex;
+    align-items: baseline;
+    padding: 0px 0px 0px 32px;
+    gap: 24px;
+    max-width: 1440px;
+    margin: auto;
+    height: 100%;
+    vertical-align: baseline;
+}
+
+.content-2a h2 {
+    line-height: 1.3125;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 32px;
+    vertical-align: baseline;
+}
+
+.chef-picture {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+
+}
+
+.chef-img img {
+    border: 0;
+}
+
+.box-content {
+    max-width: 700px;
+    max-height: 315px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.16);
+    padding: 24px;
+}
+
+.text-block {
+    padding: 10px 0px;
+    white-space: break-spaces;
+    font-family: 'open sans';
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.text-box {
+    position: relative;
+    top: -180px;
+    left: 110px;
+    display: flex;
+    justify-content: left;
+}
+
+.text-heading {
+    font-size: 25px;
+    font-weight: 550;
+    margin: 0px;
+}
+
+
+.btn-started {
+    
+    border: 1px solid transparent;
+    background-color: #E21B70;
+    outline: none;
+    font-size: 12px;
+    padding: 15px 25px;
+    border-radius: 9px;
+    color: #ffffff;
+}
+
+.btn-started:hover {
+    margin-left: 0px;
+    border: 1px solid transparent;
+    background-color: #C21760;
+    outline: none;
+    font-size: 12px;
+    border-radius: 9px;
+    color: #ffffff;
+    padding: 18px 30px;
+    transition: ease-in-out 0.18s;
+}
+
+
+.content-3a {
+    display: flex;
+    justify-content: left;
+    padding: 0px 0px 0px 32px;
+    max-width: 1440px;
+    margin: auto;
+    height: 100%;
+    
+}
+
+.content-3a h2 {
+    line-height: 1.3125;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 32px;
+   color: #333333;
+   margin-left: 20px;
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    
+  }
+  
+  .card {
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 320px;
+    height: 260px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-image {
+    position: relative;
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: 260px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .tag {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 9px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tag a {
+    text-decoration: none;
+    color: #333368;
+  }
+  
+  .section-3 {
+    margin-top: 0;
+  }
+
+  .FAQ {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-left: 100px;
+    max-width: 1340px;
+    align-items: center;
+  }
+
+  .FAQ-main h1 {
+    font-size: 38px;
+    margin-top: 5px;
+  }
+
+  .FAQ-p {
+    font-size: 16px;
+    font-weight: lighter;
+  }
+
+  .FAQ-main li {
+    list-style-type: none;
+  }
+
+  .FAQ-main ul {
+    padding: 0;
+  }
